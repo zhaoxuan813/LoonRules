@@ -1,1 +1,54 @@
+# Charles Schwab / thinkorswim
+# 嘉信理财主站 / API / CDN
 
+DOMAIN-SUFFIX,schwab.com
+DOMAIN-SUFFIX,schwabapi.com
+DOMAIN-SUFFIX,schwabcdn.com
+DOMAIN-SUFFIX,schwabassetmanagement.com
+DOMAIN-SUFFIX,schwabcharitable.org
+DOMAIN-SUFFIX,thinkorswim.com
+DOMAIN-SUFFIX,tos.mx
+
+# ===== 香港银行直连 =====
+
+# 中银香港 BOCHK
+DOMAIN-SUFFIX,bochk.com
+
+# 恒生银行 Hang Seng
+DOMAIN-SUFFIX,hangseng.com
+
+# 汇丰香港 HSBC HK
+DOMAIN-SUFFIX,hsbc.com.hk
+
+# 渣打银行 Standard Chartered
+DOMAIN-SUFFIX,sc.com
+DOMAIN-SUFFIX,standardchartered.com
+
+# ===== 香港数字银行 =====
+
+# 众安银行 ZA Bank
+DOMAIN-SUFFIX,bank.za.group
+
+# Mox Bank
+DOMAIN-SUFFIX,mox.com
+
+# 汇立银行 WeLab Bank
+DOMAIN-SUFFIX,welab.bank
+
+# 理慧银行 livi Bank
+DOMAIN-SUFFIX,livibank.com
+
+# 富融银行 Fusion Bank
+DOMAIN-SUFFIX,fusionbank.com
+
+# 蚂蚁银行（香港）
+DOMAIN-SUFFIX,antbank.hk
+
+# 大象银行 EleBank（原天星银行）
+DOMAIN-SUFFIX,elebank.com
+
+# 平安数字银行（原 PAObank）
+DOMAIN-SUFFIX,pingandb.com
+DOMAIN-SUFFIX,paob.com.hk
+
+# ===== END 香港银行直连 =====
