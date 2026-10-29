@@ -1,0 +1,23 @@
+# NAME: TatoTalk
+# AUTHOR: YourName
+# REPO: https://github.com/YourName/YourRepo
+# UPDATED: 2026-10-29
+# DESCRIPTION: Tato Talk / Potato Chat 分流规则
+#
+# Tato Talk is the current iOS client linked by Potato official website.
+#
+# DOMAIN-SUFFIX: 3
+# IP-CIDR: 3
+# TOTAL: 6
+
+# > Tato Talk
+DOMAIN-SUFFIX,tato.im
+DOMAIN-SUFFIX,tatotalk.im
+
+# > Potato Chat
+DOMAIN-SUFFIX,potato.im
+
+# > Potato Chat Legacy Server
+IP-CIDR,13.251.24.0/24,no-resolve
+IP-CIDR,13.251.41.0/24,no-resolve
+IP-CIDR,17.252.156.0/23,no-resolve
