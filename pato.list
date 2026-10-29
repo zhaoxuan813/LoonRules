@@ -2,25 +2,30 @@
 # AUTHOR: zhaoxuan813
 # REPO: https://github.com/zhaoxuan813/LoonRules
 # UPDATED: 2026-10-29
-# DESCRIPTION: Tato Talk / Potato Chat rules for Loon
+# DESCRIPTION: Tato Talk / Potato Chat routing rules
+# Verified with Tato Talk iOS traffic capture
 
-# =========================
-# Tato Talk
-# =========================
-
-DOMAIN-SUFFIX,tatotalk.im
+# > Tato Talk / Potato official & legacy domains
 DOMAIN-SUFFIX,tato.im
-
-# Current official distribution endpoints
-DOMAIN,downtato.ffvjei.com
-DOMAIN,ttkdesk.shxcox.com
-
-# =========================
-# Legacy Potato
-# =========================
-
+DOMAIN-SUFFIX,tatotalk.im
 DOMAIN-SUFFIX,potato.im
 
-# Historical Potato message servers
-IP-CIDR,13.251.24.0/24,no-resolve
-IP-CIDR,13.251.41.0/24,no-resolve
+# > Tato backend observed in traffic capture
+DOMAIN-SUFFIX,vonneumann.me
+DOMAIN-SUFFIX,pwlt.me
+DOMAIN-SUFFIX,lynnconway.xyz
+
+# > Third-party services used by Tato
+DOMAIN,ep1.facebook.com
+DOMAIN,ep2.facebook.com
+DOMAIN,app.adjust.com
+DOMAIN,app-analytics-services.com
+
+# > Tato core / historical server IPs
+IP-CIDR,3.33.191.160/32,no-resolve
+IP-CIDR,13.212.189.11/32,no-resolve
+IP-CIDR,13.212.116.79/32,no-resolve
+
+# > Tato core TCP port
+# Important: catches hard-coded / rotated server IPs
+DEST-PORT,20335
