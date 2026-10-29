@@ -1,23 +1,26 @@
 # NAME: TatoTalk
-# AUTHOR: YourName
-# REPO: https://github.com/YourName/YourRepo
+# AUTHOR: zhaoxuan813
+# REPO: https://github.com/zhaoxuan813/LoonRules
 # UPDATED: 2026-10-29
-# DESCRIPTION: Tato Talk / Potato Chat 分流规则
-#
-# Tato Talk is the current iOS client linked by Potato official website.
-#
-# DOMAIN-SUFFIX: 3
-# IP-CIDR: 3
-# TOTAL: 6
+# DESCRIPTION: Tato Talk / Potato Chat rules for Loon
 
-# > Tato Talk
-DOMAIN-SUFFIX,tato.im
+# =========================
+# Tato Talk
+# =========================
+
 DOMAIN-SUFFIX,tatotalk.im
+DOMAIN-SUFFIX,tato.im
 
-# > Potato Chat
+# Current official distribution endpoints
+DOMAIN,downtato.ffvjei.com
+DOMAIN,ttkdesk.shxcox.com
+
+# =========================
+# Legacy Potato
+# =========================
+
 DOMAIN-SUFFIX,potato.im
 
-# > Potato Chat Legacy Server
+# Historical Potato message servers
 IP-CIDR,13.251.24.0/24,no-resolve
 IP-CIDR,13.251.41.0/24,no-resolve
-IP-CIDR,17.252.156.0/23,no-resolve
