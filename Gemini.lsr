@@ -1,0 +1,36 @@
+# Gemini.lsr
+# Scope: Gemini App / Google AI Studio / Gemini Developer API / Vertex AI / Firebase AI Logic / NotebookLM
+# Policy name: Gemini
+#
+# Design notes:
+# - Only service-specific hostnames are included.
+# - No broad google.com, googleapis.com, gstatic.com, googleusercontent.com,
+#   clients6.google.com or cloud.google.com suffix rules are used.
+# - Shared Google authentication, CDN, fonts, analytics and static-resource
+#   hosts are intentionally excluded to avoid capturing unrelated Google services.
+#
+# Gemini consumer app
+DOMAIN-SUFFIX,gemini.google.com,Gemini
+DOMAIN-SUFFIX,gemini.google,Gemini
+DOMAIN,gemini.gstatic.com,Gemini
+DOMAIN,geminiweb-pa.googleapis.com,Gemini
+DOMAIN,robinfrontend-pa.googleapis.com,Gemini
+
+# Google AI Studio
+DOMAIN-SUFFIX,aistudio.google.com,Gemini
+DOMAIN-SUFFIX,makersuite.google.com,Gemini
+
+# Gemini Developer API
+DOMAIN-SUFFIX,generativelanguage.googleapis.com,Gemini
+
+# Vertex AI / Gemini on Vertex AI
+DOMAIN-SUFFIX,aiplatform.googleapis.com,Gemini
+
+# Firebase AI Logic (Gemini Developer API / Vertex AI provider)
+DOMAIN-SUFFIX,firebasevertexai.googleapis.com,Gemini
+
+# NotebookLM
+DOMAIN-SUFFIX,notebooklm.google.com,Gemini
+DOMAIN-SUFFIX,notebooklm.google,Gemini
+DOMAIN,notebook.google.com,Gemini
+DOMAIN,vertexaisearch.cloud.google.com,Gemini
