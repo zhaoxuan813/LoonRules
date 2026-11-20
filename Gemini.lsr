@@ -1,6 +1,6 @@
 # Gemini.lsr
 # Scope: Gemini App / Google AI Studio / Gemini Developer API / Vertex AI / Firebase AI Logic / NotebookLM
-# Policy name: Gemini
+# Policy: set in Loon Remote Rule subscription (policy=Gemini)
 #
 # Design notes:
 # - Only service-specific hostnames are included.
@@ -10,27 +10,27 @@
 #   hosts are intentionally excluded to avoid capturing unrelated Google services.
 #
 # Gemini consumer app
-DOMAIN-SUFFIX,gemini.google.com,Gemini
-DOMAIN-SUFFIX,gemini.google,Gemini
-DOMAIN,gemini.gstatic.com,Gemini
-DOMAIN,geminiweb-pa.googleapis.com,Gemini
-DOMAIN,robinfrontend-pa.googleapis.com,Gemini
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN,gemini.gstatic.com
+DOMAIN,geminiweb-pa.googleapis.com
+DOMAIN,robinfrontend-pa.googleapis.com
 
 # Google AI Studio
-DOMAIN-SUFFIX,aistudio.google.com,Gemini
-DOMAIN-SUFFIX,makersuite.google.com,Gemini
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,makersuite.google.com
 
 # Gemini Developer API
-DOMAIN-SUFFIX,generativelanguage.googleapis.com,Gemini
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
 
 # Vertex AI / Gemini on Vertex AI
-DOMAIN-SUFFIX,aiplatform.googleapis.com,Gemini
+DOMAIN-SUFFIX,aiplatform.googleapis.com
 
 # Firebase AI Logic (Gemini Developer API / Vertex AI provider)
-DOMAIN-SUFFIX,firebasevertexai.googleapis.com,Gemini
+DOMAIN-SUFFIX,firebasevertexai.googleapis.com
 
 # NotebookLM
-DOMAIN-SUFFIX,notebooklm.google.com,Gemini
-DOMAIN-SUFFIX,notebooklm.google,Gemini
-DOMAIN,notebook.google.com,Gemini
-DOMAIN,vertexaisearch.cloud.google.com,Gemini
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN,notebook.google.com
+DOMAIN,vertexaisearch.cloud.google.com
